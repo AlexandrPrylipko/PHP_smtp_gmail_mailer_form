@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="contact-form">
+        <form action="mail_functions.php">
+            <fieldset>
+                <input class="you-name" id="your_name" name="your_name" placeholder="You name" autocomplete>
+                <br />
+                <input class="you-email" id="your_email" name="your_email" placeholder="You email" autocomplete>
+                <br />
+                <input class="message-subject" id="message_subject" name="message_subject" placeholder="Message subject" autocomplete>
+                <br />
+                <textarea class="message-content" name="message_content" id="message_content" cols="20" rows="5" placeholder="You message" aria-autocomplete></textarea>
+                <br />
+                <input type="submit" class="btn-submit" id="submit" name="submit" value="Submit">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
